@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Us ❤️</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="hearts" id="hearts" aria-hidden="true"></div>
+
+  <div class="container">
+    <main class="card" id="loveCard">
+      <section class="hero">
+        <div class="kicker">A little place for our story</div>
+        <h1>For Us ❤️</h1>
+        <div class="subtitle">Some feelings are too important to fit in one message.<br>
+          So I made this little corner of the internet for you.</div>
+        <a class="scroll-btn" href="#photos">Our Memories ↓</a>
+        <button class="control-btn" id="moodBtn" type="button">🌙 Change Mood</button>
+      </section>
+
+      <section class="section" id="counter">
+        <h2>Time We've Shared ⏳</h2>
+        <p id="counterText"></p>
+        <div class="counter" id="counterBoxes">
+          <div><b id="cDays">0</b><span>days</span></div>
+          <div><b id="cHours">0</b><span>hours</span></div>
+          <div><b id="cMins">0</b><span>minutes</span></div>
+          <div><b id="cSecs">0</b><span>seconds</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="photos">
+        <h2>Our Memories 📸</h2>
+        <p>Our favorite moments, kept in one little place.</p>
+        <div class="gallery" id="gallery">
+          <div class="gallery-placeholder" id="placeholder">
+            <div class="big">📷</div>
+            <div>Add your photos to the <code>assets/photos</code> folder, then list them in <code>script.js</code>.</div>
+          </div>
+        </div>
+        <div class="gallery-controls">
+          <button class="arrow" id="prevBtn" type="button" aria-label="Previous photo">‹</button>
+          <span id="slideCount">0 / 0</span>
+          <button class="arrow" id="nextBtn" type="button" aria-label="Next photo">›</button>
+        </div>
+        <div class="dots" id="dots"></div>
+      </section>
+
+      <section class="section">
+        <h2>Song 🎵</h2>
+        <div class="player">
+          <button id="playBtn" type="button" aria-label="Play or pause song">▶</button>
+          <div class="progress" id="progress" role="slider" aria-label="Song progress" tabindex="0"><span></span></div>
+          <div class="time" id="time">0:00</div>
+        </div>
+        <audio id="audio" preload="metadata"></audio>
+      </section>
+
+      <section class="section">
+        <h2>Reasons I Care 💌</h2>
+        <p>Tap a heart to open it. Each one is something real.</p>
+        <div class="reasons" id="reasons"></div>
+      </section>
+
+      <section class="section">
+        <h2>What I Need You to Know</h2>
+        <p> Hello Babieee HAPPY Weeksary I know may tampuhan ta and sge nalang jud ta ayaw dahil sa akoa kay dungol kaayo ko dili ma mingaw sa imoha tapos feel nimo like dili nko makita imoha cared Im so sorry if gahii jud ko ulo.</p>
+        <p>Sa tinooud lang dili jud nako ipakaita akoa weak side sa imoha dili nko ipa feel naa na diay koy gina bati im so sacred man gud mag say sa imoha I feel so weak that even my problema najud ko dili nko ma say sa imoha maong gahi kaayo ko ulo thank youu so much sa imoha patient.</p>
+        <p> Sa tinood lang gusto jud nko mag cry gahapon kay dili jud nko ma sabtan akoa gina bait na like kaya pa bako ni dili jud nko gina pa feel sa imoha para dili ka mag alala tung nag cine ta murag naa jud koy na feel na lain dili ra nko na say tapos nakita pud taka na kahilakon gipa tatag nalang nko akoa sarili pero deep inside im just sacred .</p>
+        <div class="quote">“I don't want us to go back to the past and pretend nothing happened. I want us to move forward with better understanding, more patience, and a love that is shown through actions.”</div>
+        <p> nag tampo jud ko tung sunday kay ni kalit ka hawa wala diay ko kabalo na na suko naka kay ato rajud ko mag lambing ng gina kulit nko ka para happy atoa bonding pero ako ra diay na lipay wla nako nakita ang situation na dili ka ato i know pud naa tay heated arguement tung monday na dala napud ko sa akoa emotions dapat mas sabtan unta nko ang situation .</p>
+        <p>You know im still do my best jud para maka bawi sa tanan2 nako na buhat sa imoha I want to have confortable life with you to have our dreams to be com true im still love struck sa imoha like diko ma say jud na ani jud ko ka inlab sa imoha you know my secret naman na crush jud taka.</p>
+        <p>Like we became friends to lover jud Im still have a HUGEEEEE CRUSH SA IMOHA LALO NA MAKITA TAKA DILI JUD KO MAKA HIMIK NA TAWAON KA PERME THAT HOW I LOVE STURCK WITHHH YOUUUUUUUUU .</p>
+        <p>LOVEEEE YOUUU SO MUCHHHH MY BABIEEE KOOOO ADVANCE HAPPY 6TH MOTMOTMOT LOVEEEEEEE YOUUUUUUU SOOOOOO MUCHHHHHHHHHHHHHHHHHHHH.</p>
+      </section>
+
+      <section class="section">
+        <h2>What I Want to Do Better 🤍</h2>
+        <p>Promises only count when they turn into actions. Tap each one to see what I will actually do.</p>
+        <div class="promise-grid">
+          <button class="promise" type="button" aria-pressed="false"><strong>Listen Better</strong>I will try to understand your feelings before reacting or defending myself.<span class="deed">✓ When we disagree, I will repeat back what I heard before I answer.</span></button>
+          <button class="promise" type="button" aria-pressed="false"><strong>Communicate</strong>I will talk about problems instead of letting silence make them bigger.<span class="deed">✓ If something bothers me, I will say it calmly within a day instead of going quiet.</span></button>
+          <button class="promise" type="button" aria-pressed="false"><strong>Be Consistent</strong>I want my actions to match the love I say I have for you.<span class="deed">✓ I will do the small things I say I will do, every time.</span></button>
+          <button class="promise" type="button" aria-pressed="false"><strong>Respect Your Space</strong>I will respect your feelings and give you time when you need it.<span class="deed">✓ When you need time, I will ask how long feels okay and wait without pressure.</span></button>
+        </div>
+        <div class="seal-status"><span id="sealCount">0 of 4 promises sealed</span><div class="seal-bar"><span id="sealFill"></span></div></div>
+        <div id="sealNote" role="status" aria-live="polite"></div>
+      </section>
+
+      <section class="section interaction-section">
+        <h2>How Are You Feeling? 💗</h2>
+        <p>There is no pressure and no wrong answer. Tap whatever is true for you right now.</p>
+        <div class="interactions" id="moods">
+          <button class="mood" data-mood="hurt" type="button">I'm still hurting</button>
+          <button class="mood" data-mood="time" type="button">I need time</button>
+          <button class="mood" data-mood="miss" type="button">I miss us</button>
+          <button class="mood" data-mood="talk" type="button">I'm ready to talk</button>
+        </div>
+        <div id="response" role="status" aria-live="polite"></div>
+        <h3>Write me something</h3>
+        <p class="tiny">Nothing is sent from this page. When you are done, copy it or share it however you like.</p>
+        <textarea id="note" rows="5" maxlength="1000" aria-label="Your message" placeholder="Whatever you want me to know, in your own words..."></textarea>
+        <div class="interactions">
+          <button id="copyBtn" type="button">Copy message</button>
+          <button class="secondary" id="shareBtn" type="button">Share</button>
+        </div>
+      </section>
+
+      <div class="signature">
+        <div class="love">With all my heart ❤️</div>
+        <div>I am still willing to choose understanding, effort, patience, and love.</div>
+        <div class="tiny">Made by Bernielle❤️❤️❤️❤️❤️❤️.</div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
